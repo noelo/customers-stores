@@ -73,15 +73,15 @@ public class StoreApp extends RepositoryRestConfigurerAdapter {
         }
     }
     
-    @Configuration
-    @Profile("cloud")
-    protected static class CloudFoundryConfiguration {
-    	
-    	@Bean
-    	  public Cloud cloud() {
-    	    return new CloudFactory().getCloud();
-    	  }
-
-    }
+//    @Configuration
+//    @Profile("cloud")
+//    protected static class CloudFoundryConfiguration {
+//
+//    	@Bean
+//    	  public Cloud cloud() {
+//    	    return new CloudFactory().getCloud();
+//    	  }
+//
+//    }
 
 }
