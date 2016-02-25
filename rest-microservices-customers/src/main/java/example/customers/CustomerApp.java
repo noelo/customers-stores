@@ -30,10 +30,10 @@ import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurerAdapt
 @EnableDiscoveryClient
 public class CustomerApp extends RepositoryRestConfigurerAdapter {
 
-	@Override
-	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
-		config.exposeIdsFor(Customer.class);
-	}
+//	@Override
+//	public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
+//		config.exposeIdsFor(Customer.class);
+//	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerApp.class, args);
