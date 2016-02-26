@@ -41,7 +41,7 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
  */
 @Component
 @Slf4j
-@ConfigurationProperties("integration.stores")
+//@ConfigurationProperties("integration.stores")
 @RequiredArgsConstructor(onConstructor = @__(@Autowired))
 public class StoreIntegration {
 
